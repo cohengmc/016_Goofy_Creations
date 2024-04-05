@@ -82,3 +82,29 @@ a:link,  a:visited {
     align-self: flex-end;
     text-align: end !important;
 }
+
+@media screen and (max-width: 600px) {
+    #taskbar {
+        justify-content: center;
+    }
+
+    #header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #header-text {
+        text-align: center;
+    }
+
+    #about-content {
+        margin-top: 2em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #header-text {
+        text-align: start;
+        margin-left: 2em;
+    }
+}
