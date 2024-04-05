@@ -1,5 +1,6 @@
 body {
     font-family: "Montserrat", sans-serif;
+    user-select: none;
 }
 
 h1 {
@@ -38,6 +39,10 @@ a:link,  a:visited {
     align-self: center;
 }
 
+#header-text {
+    align-self: center;
+}
+
 #header-text h3 {
     margin: 0;
 }
@@ -48,4 +53,13 @@ a:link,  a:visited {
 
 #project-list {
     margin-left: 2em;
+}
+
+#about-content {
+    text-align: center;
+}
+
+#about-content h2 {
+    margin: 0;
+    font-size: 200%;
 }
