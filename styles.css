@@ -1,3 +1,51 @@
 body {
     font-family: "Montserrat", sans-serif;
 }
+
+h1 {
+    margin: 0 0 .2em 0;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:link,  a:visited {
+    color: blue;
+}
+
+#taskbar {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    justify-content: end;
+    margin: 1em 2em 0 0;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#header {
+    display: flex;
+}
+
+#header img {
+    max-width: 10em;
+    align-self: center;
+}
+
+#header-text h3 {
+    margin: 0;
+}
+
+#blog-txt {
+    margin-top: .5em !important;
+}
+
+#project-list {
+    margin-left: 2em;
+}
