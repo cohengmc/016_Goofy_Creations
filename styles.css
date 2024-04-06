@@ -103,8 +103,19 @@ a:link,  a:visited {
 }
 
 @media screen and (max-width: 400px) {
+    body {
+        margin: 2em;
+    }
+
     #header-text {
         text-align: start;
-        margin-left: 2em;
+    }
+
+    #project-list {
+        margin-left: 0;
+    }
+
+    #about-content {
+        max-width: 100%;
     }
 }
